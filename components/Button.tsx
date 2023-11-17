@@ -4,7 +4,7 @@ type ButtonProps = {
     type:'button' | 'submit';
     icon?:string;
     variant: string;
-    full:boolean;
+    full?:boolean;
 }
 export const Button = ({type,variant,title,icon,full}:ButtonProps) => {
   return (
