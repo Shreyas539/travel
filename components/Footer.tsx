@@ -69,7 +69,7 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">2023 Hilink | All rights reserved</p>
-        <p className="regular-16  w-full text-center text-gray-30">Made with 
+        <p className="regular-16 bold-18 w-full text-center text-gray-30">Made with 
           <FontAwesomeIcon
               icon={faHeart}
               style={{ fontSize: 16, color: "red", paddingLeft:"3px" }}
