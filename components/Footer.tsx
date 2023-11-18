@@ -1,4 +1,6 @@
 import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from "@/constants"
+import { faAmbulance, faHeart } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { link } from "fs"
 import Image from "next/image"
 import Link from "next/link"
@@ -67,7 +69,12 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">2023 Hilink | All rights reserved</p>
-        <p className="regular-14 w-full text-center text-gray-30">Made with LOVE by Shreyas</p>
+        <p className="regular-16  w-full text-center text-gray-30">Made with 
+          <FontAwesomeIcon
+              icon={faHeart}
+              style={{ fontSize: 16, color: "red", paddingLeft:"3px" }}
+          /> by Shreyas N.
+        </p>
       </div>
     </footer>
   )
